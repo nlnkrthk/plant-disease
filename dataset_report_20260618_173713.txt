@@ -1,0 +1,274 @@
+================================================================================
+PLANT DISEASE DATASET - COMPREHENSIVE STATISTICS REPORT
+================================================================================
+
+Generated: 2026-06-18 17:33:31
+Dataset Path: d:\Projects\plantdisease
+
+--------------------------------------------------------------------------------
+EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Total Images:              43,601
+Total Crops:               8
+Total Disease Classes:     48
+Average Classes per Crop:  6.0
+
+--------------------------------------------------------------------------------
+IMAGE DISTRIBUTION STATISTICS
+--------------------------------------------------------------------------------
+
+By Disease Class:
+  Minimum:     342 images
+  Maximum:     5,357 images
+  Mean:        908.4 images
+  Median:      520.0 images
+  Std Dev:     830.9 images
+  Range:       5,015 images
+  Imbalance Ratio: 15.66x
+
+By Crop:
+  Minimum:     1,710 images (cotton)
+  Maximum:     19,178 images (tomato)
+  Mean:        5,450.1 images
+  Median:      3,914.5 images
+  Std Dev:     5,628.4 images
+  Range:       17,468 images
+  Imbalance Ratio: 11.22x
+
+--------------------------------------------------------------------------------
+CLASS SIZE DISTRIBUTION
+--------------------------------------------------------------------------------
+  Extra Small (1-50)           0 classes (  0.0%)
+  Small (51-200)               0 classes (  0.0%)
+  Medium (201-500)            21 classes ( 43.8%)
+  Large (501-1000)            12 classes ( 25.0%)
+  Extra Large (1001+)         15 classes ( 31.2%)
+
+  Underrepresented (<100 images): 0 classes
+
+--------------------------------------------------------------------------------
+CROPS DETAILED BREAKDOWN
+--------------------------------------------------------------------------------
+
+Rank   Crop                 Images          Classes      Avg/Class   
+--------------------------------------------------------------------------------
+1      tomato                       19,178          10      1917.8
+2      banana                        4,675           4      1168.8
+3      corn                          4,188           4      1047.0
+4      mango                         4,000           8       500.0
+5      rice                          3,829           6       638.2
+6      potato                        3,500           7       500.0
+7      sugarcane                     2,521           5       504.2
+8      cotton                        1,710           4       427.5
+
+
+--------------------------------------------------------------------------------
+CROP: BANANA
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Yellow and Black Sigatoka                         2,497     53.4%
+Healthy                                           1,001     21.4%
+Panama Disease                                      835     17.9%
+Cordana                                             342      7.3%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        4,675    100.0%
+
+--------------------------------------------------------------------------------
+CROP: CORN
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Common_Rust                                       1,306     31.2%
+Healthy                                           1,162     27.7%
+Blight                                            1,146     27.4%
+Gray_Leaf_Spot                                      574     13.7%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        4,188    100.0%
+
+--------------------------------------------------------------------------------
+CROP: COTTON
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+bacterial_blight                                    448     26.2%
+healthy                                             425     24.9%
+fussarium_wilt                                      419     24.5%
+curl_virus                                          418     24.4%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        1,710    100.0%
+
+--------------------------------------------------------------------------------
+CROP: MANGO
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Anthracnose                                         500     12.5%
+Bacterial Canker                                    500     12.5%
+Cutting Weevil                                      500     12.5%
+Die Back                                            500     12.5%
+Gall Midge                                          500     12.5%
+Healthy                                             500     12.5%
+Powdery Mildew                                      500     12.5%
+Sooty Mould                                         500     12.5%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        4,000    100.0%
+
+--------------------------------------------------------------------------------
+CROP: POTATO
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Early Blight                                        500     14.3%
+Fungal Diseases                                     500     14.3%
+Healthy                                             500     14.3%
+Late Blight                                         500     14.3%
+Plant Pests                                         500     14.3%
+Potato Cyst Nematode                                500     14.3%
+Potato Virus                                        500     14.3%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        3,500    100.0%
+
+--------------------------------------------------------------------------------
+CROP: RICE
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Healthy Rice Leaf                                   653     17.1%
+Brown Spot                                          646     16.9%
+Bacterial Leaf Blight                               636     16.6%
+Leaf Blast                                          634     16.6%
+Sheath Blight                                       632     16.5%
+Leaf scald                                          628     16.4%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        3,829    100.0%
+
+--------------------------------------------------------------------------------
+CROP: SUGARCANE
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Healthy                                             522     20.7%
+RedRot                                              518     20.5%
+Rust                                                514     20.4%
+Yellow                                              505     20.0%
+Mosaic                                              462     18.3%
+--------------------------------------------------------------------------------
+CROP TOTAL                                        2,521    100.0%
+
+--------------------------------------------------------------------------------
+CROP: TOMATO
+--------------------------------------------------------------------------------
+Disease/Class                            Images          %         
+--------------------------------------------------------------------------------
+Tomato___Tomato_Yellow_Leaf_Curl_Virus            5,357     27.9%
+Tomato___Bacterial_spot                           2,127     11.1%
+Tomato___Late_blight                              1,905      9.9%
+Tomato___Septoria_leaf_spot                       1,780      9.3%
+Tomato___Spider_mites Two-spotted_spider_mite          1,690      8.8%
+Tomato___healthy                                  1,603      8.4%
+Tomato___Target_Spot                              1,433      7.5%
+Tomato___Early_blight                             1,142      6.0%
+Tomato___Leaf_Mold                                1,135      5.9%
+Tomato___Tomato_mosaic_virus                      1,006      5.2%
+--------------------------------------------------------------------------------
+CROP TOTAL                                       19,178    100.0%
+
+================================================================================
+TOP 20 DISEASE CLASSES BY IMAGE COUNT
+================================================================================
+
+Rank   Crop                 Disease                             Images       %         
+--------------------------------------------------------------------------------
+1      tomato               Tomato___Tomato_Yellow_Leaf_Curl_Virus       5,357     12.3%
+2      banana               Yellow and Black Sigatoka                 2,497      5.7%
+3      tomato               Tomato___Bacterial_spot                   2,127      4.9%
+4      tomato               Tomato___Late_blight                      1,905      4.4%
+5      tomato               Tomato___Septoria_leaf_spot               1,780      4.1%
+6      tomato               Tomato___Spider_mites Two-spotted_spider_mite       1,690      3.9%
+7      tomato               Tomato___healthy                          1,603      3.7%
+8      tomato               Tomato___Target_Spot                      1,433      3.3%
+9      corn                 Common_Rust                               1,306      3.0%
+10     corn                 Healthy                                   1,162      2.7%
+11     corn                 Blight                                    1,146      2.6%
+12     tomato               Tomato___Early_blight                     1,142      2.6%
+13     tomato               Tomato___Leaf_Mold                        1,135      2.6%
+14     tomato               Tomato___Tomato_mosaic_virus              1,006      2.3%
+15     banana               Healthy                                   1,001      2.3%
+16     banana               Panama Disease                              835      1.9%
+17     rice                 Healthy Rice Leaf                           653      1.5%
+18     rice                 Brown Spot                                  646      1.5%
+19     rice                 Bacterial Leaf Blight                       636      1.5%
+20     rice                 Leaf Blast                                  634      1.5%
+
+================================================================================
+BOTTOM 15 DISEASE CLASSES BY IMAGE COUNT (UNDERREPRESENTED)
+================================================================================
+
+Rank   Crop                 Disease                             Images       %         
+--------------------------------------------------------------------------------
+1      banana               Cordana                                     342      0.8%
+2      cotton               curl_virus                                  418      1.0%
+3      cotton               fussarium_wilt                              419      1.0%
+4      cotton               healthy                                     425      1.0%
+5      cotton               bacterial_blight                            448      1.0%
+6      sugarcane            Mosaic                                      462      1.1%
+7      mango                Anthracnose                                 500      1.1%
+8      mango                Bacterial Canker                            500      1.1%
+9      mango                Cutting Weevil                              500      1.1%
+10     mango                Die Back                                    500      1.1%
+11     mango                Gall Midge                                  500      1.1%
+12     mango                Healthy                                     500      1.1%
+13     mango                Powdery Mildew                              500      1.1%
+14     mango                Sooty Mould                                 500      1.1%
+15     potato               Early Blight                                500      1.1%
+
+================================================================================
+DATASET QUALITY ASSESSMENT
+================================================================================
+
+1. CLASS BALANCE:
+   ⚠ WARNING: High class imbalance detected
+   The most common class has 15.7x more images than the least common
+
+2. REPRESENTATION:
+   • Classes with <100 images: 0
+   • Recommendation: Consider data augmentation for underrepresented classes
+
+3. DATA DISTRIBUTION:
+   ⚠ WARNING: High variability in class sizes
+   • Coefficient of Variation: 0.91
+
+4. CROP COVERAGE:
+   ✓ GOOD: All crops have reasonable number of disease classes
+   • Classes per crop range: 4 to 10
+
+5. DATASET SIZE:
+   ✓ GOOD: Dataset has sufficient size for training
+   • Total images: 43,601
+
+================================================================================
+RECOMMENDATIONS
+================================================================================
+
+1. ADDRESSING IMBALANCE:
+   • Dataset appears well-balanced
+
+2. DATA AUGMENTATION:
+   • Use rotation, zoom, and brightness adjustments
+   • Apply horizontal and vertical flips where appropriate
+   • Consider mixup or cutmix techniques
+
+3. TRAIN/VALIDATION/TEST SPLIT:
+   • Suggested: 70% training, 15% validation, 15% testing
+   • Ensure stratified split to maintain class distribution
+   • Use stratified k-fold cross-validation for robust evaluation
+
+4. MODEL CONSIDERATIONS:
+   • Use weighted loss functions due to class imbalance
+   • Consider transfer learning (ResNet, EfficientNet)
+   • Use appropriate data preprocessing and normalization
+
+================================================================================
+END OF REPORT
+================================================================================

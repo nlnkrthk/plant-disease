@@ -1,0 +1,54 @@
+{
+  "generation_date": "2026-06-18T17:32:16.985642",
+  "total_images": 43601,
+  "total_crops": 8,
+  "total_disease_classes": 48,
+  "statistics": {
+    "images_per_class": {
+      "min": 342,
+      "max": 5357,
+      "mean": 908.3541666666666,
+      "median": 520.0,
+      "std_dev": 830.8726376420573
+    },
+    "images_per_crop": {
+      "min": 1710,
+      "max": 19178,
+      "mean": 5450.125,
+      "median": 3914.5,
+      "std_dev": 5628.378793159333
+    },
+    "imbalance": {
+      "class_ratio": 15.663742690058479,
+      "crop_ratio": 11.215204678362573
+    }
+  },
+  "extremes": {
+    "max_crop": {
+      "name": "tomato",
+      "count": 19178
+    },
+    "min_crop": {
+      "name": "cotton",
+      "count": 1710
+    },
+    "max_class": {
+      "name": "tomato/Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "count": 5357
+    },
+    "min_class": {
+      "name": "banana/Cordana",
+      "count": 342
+    }
+  },
+  "crop_totals": {
+    "banana": 4675,
+    "corn": 4188,
+    "cotton": 1710,
+    "mango": 4000,
+    "potato": 3500,
+    "rice": 3829,
+    "sugarcane": 2521,
+    "tomato": 19178
+  }
+}
