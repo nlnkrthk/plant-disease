@@ -47,5 +47,9 @@ env/
 *.swo
 *~
 .DS_Store
+# Logs
+*.log
 
-
+# Excel temporary and backup files
+~$*.xlsx
+*backup*.xlsx
